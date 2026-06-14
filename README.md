@@ -4,13 +4,13 @@
 A responsive, mobile-first portfolio website for freelance full-stack developers. Built with pure HTML, CSS, and JavaScript.
 
 ## Requirements Met
-- ✅ Mobile-First Design
-- ✅ Semantic HTML5 (header, nav, main, article, footer)
-- ✅ CSS Grid + Flexbox
-- ✅ Media Queries (768px, 1024px)
-- ✅ 2025 Color Palette (Mocha Mousse, Ethereal Blue, Moonlit Grey)
-- ✅ JavaScript State Management (Animated Counters)
-- ✅ WCAG Accessibility Standards
+- Mobile-First Design
+- Semantic HTML5 (header, nav, main, article, footer)
+- CSS Grid + Flexbox
+- Media Queries (768px, 1024px)
+- 2025 Color Palette (Mocha Mousse, Ethereal Blue, Moonlit Grey)
+- JavaScript State Management (Animated Counters)
+- WCAG Accessibility Standards
 
 ## Technologies Used
 | Technology | Purpose |
