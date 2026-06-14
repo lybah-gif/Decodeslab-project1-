@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Freelance Full-Stack Developer Portfolio - Responsive, Accessible, Modern">
+    <meta name="author" content="Your Name">
+    <title>Laiba Zahid | Freelance Full-Stack Developer</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome 6 (Free Icons) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- HEADER with Navigation (Semantic Landmark) -->
+    <header>
+        <nav class="navbar" aria-label="Main navigation">
+            <div class="logo">
+                <span class="logo-mark">LZ</span>
+                <span class="logo-text">Laiba Zahid</span>
+            </div>
+            <button class="mobile-menu-btn" id="menuBtn" aria-label="Open mobile menu" aria-expanded="false">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks" role="list">
+                <li role="listitem"><a href="#home">Home</a></li>
+                <li role="listitem"><a href="#work">Work</a></li>
+                <li role="listitem"><a href="#stats">Stats</a></li>
+                <li role="listitem"><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN Content -->
+    <main id="main-content">
+        
+        <!-- HERO Section -->
+        <section id="home" class="hero" aria-label="Introduction">
+            <div class="container">
+                <span class="hero-badge">Available for work</span>
+                <h1>Building <span class="highlight">digital experiences</span> that actually work</h1>
+                <p class="hero-description">
+                    Full-stack developer with 3+ years of freelance experience. 
+                    I help startups and businesses turn ideas into responsive, 
+                    accessible web applications.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" id="hireBtn">
+                        Hire Me
+                    </button>
+                    <a href="#work" class="btn btn-secondary">View Projects →</a>
+                </div>
+                
+                <!-- Trust indicators -->
+                <div class="trust-badges">
+                    <span><i class="fas fa-check-circle"></i> 20+ Projects</span>
+                    <span><i class="fas fa-star"></i> 4.9 Rating</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- WORK Section (Portfolio - Uses Article tags) -->
+        <section id="work" class="work" aria-label="Portfolio projects">
+            <div class="container">
+                <h2>Selected <span class="highlight">Work</span></h2>
+                <p class="section-subtitle">Real projects, real results</p>
+                
+                <div class="work-grid">
+                    <article class="work-card">
+                        <div class="work-icon"><i class="fas fa-plane"></i></div>
+                        <h3>TravelEx Website</h3>
+                        <p>Responsive travel booking website with destination guides, reservation forms, and dynamic UI using Bootstrap.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="#" class="card-link">Case Study →</a>
+                    </article>
+                    
+                    <article class="work-card">
+                        <div class="work-icon"><i class="fas fa-university"></i></div>
+                        <h3>University Management System</h3>
+                        <p>Complete university management system for student records, course registration, and admin dashboards built with Bootstrap.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="#" class="card-link">Case Study →</a>
+                    </article>
+                    
+                    <article class="work-card">
+                        <div class="work-icon"><i class="fas fa-users"></i></div>
+                        <h3>CUSIT Societies Management System</h3>
+                        <p>Societies management portal for CUSIT with event scheduling, member enrollment, and role-based access controls.</p>
+                        <div class="tech-stack">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                            <span>PHP</span>
+                            <span>Bootstrap</span>
+                        </div>
+                        <a href="#" class="card-link">Case Study →</a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS Section (JavaScript State Management - Real counters) -->
+        <section id="stats" class="stats" aria-label="Professional statistics">
+            <div class="container">
+                <h2>Impact <span class="highlight">Numbers</span></h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fas fa-code stat-icon"></i>
+                        <div class="stat-number" id="projectsCount" data-target="20">20</div>
+                        <p class="stat-label">Projects Completed</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-users stat-icon"></i>
+                        <div class="stat-number" id="clientsCount" data-target="32">32</div>
+                        <p class="stat-label">Happy Clients</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-calendar-alt stat-icon"></i>
+                        <div class="stat-number" id="expCount" data-target="4">4</div>
+                        <p class="stat-label">Years Experience</p>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+
+        <!-- CONTACT Section -->
+        <section id="contact" class="contact" aria-label="Contact information">
+            <div class="container">
+                <h2>Let's <span class="highlight">Connect</span></h2>
+                <div class="contact-wrapper">
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:lybahzahid343@gmail.com">lybahzahid343@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <a href="#">github.com/lybah-gif</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <a href="#">linkedin.com/in/lybahzahid</a>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-twitter"></i>
+                            <a href="#">@lybahzahid-dev</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Quick Contact Form (Interactive) -->
+                    <form class="contact-form" id="contactForm">
+                        <h3>Send a message</h3>
+                        <input type="text" placeholder="Your name" id="formName" required>
+                        <input type="email" placeholder="Your email" id="formEmail" required>
+                        <textarea rows="4" placeholder="Tell me about your project" id="formMsg"></textarea>
+                        <button type="submit" class="btn btn-primary">Send Message <i class="fas fa-arrow-right"></i></button>
+                        <p class="form-message" id="formFeedback"></p>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER (Semantic Landmark) -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <span class="logo-mark small">LZ</span>
+                    <p>Building accessible web experiences since 2022</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#work">Work</a>
+                    <a href="#stats">Stats</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lybah Zahid. </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
