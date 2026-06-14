@@ -34,5 +34,5 @@ A responsive, mobile-first portfolio website for freelance full-stack developers
 Laiba Zahid
 Batch 2026 | DecodeLabs
 
-## 📅 Submission Date
+## Submission Date
 June 2026
